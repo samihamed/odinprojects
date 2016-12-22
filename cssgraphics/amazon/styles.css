@@ -1,0 +1,90 @@
+div {
+  margin: auto;
+  padding: 0;
+  position: absolute;
+  text-align: center;
+}
+
+.amazon {
+  display: block;
+  margin: auto;
+  position: relative;
+  width: 400px;
+  border: 1px solid white;
+  height: 100%;
+}
+
+.letter p {
+  font-family: Helvetica;
+  font-size: 12em;
+  font-weight: bold;
+  position: absolute;
+  top: 25px;
+  left: 145px;
+}
+
+.orangeCircle {
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+  border-radius: 100px;
+  position: absolute;
+  top: 222px;
+  left: 100px;
+}
+
+.whiteCircle {
+  width: 250px;
+  height: 200px;
+  background-color: white;
+  border-radius: 100px;
+  position: absolute;
+  top: 201px;
+  left: 75px;
+}
+
+.whiteCircle2 {
+  width: 210px;
+  height: 200px;
+  background-color: white;
+  border-radius: 100px;
+  position: absolute;
+  top: 211px;
+  left: 95px;
+}
+
+.arrow {
+  background-color: orange;
+  width: 35px;
+  height: 10px;
+  position: absolute;
+  border-radius: 50% / 100%;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  transform: rotate(-20deg);
+  top: 375px;
+  left: 254px;
+}
+
+.arrow2 {
+  background-color: orange;
+  width: 35px;
+  height: 10px;
+  position: absolute;
+  border-radius: 50% / 100%;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  transform: rotate(120deg);
+  top: 388px;
+  left: 266px;
+}
+
+.whiteBox {
+  width: 250px;
+  height: 50px;
+  position: absolute;
+  top: 360px;
+  left: 135px;
+  background-color: white;
+  transform: rotate(99deg);
+}

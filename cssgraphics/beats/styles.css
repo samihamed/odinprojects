@@ -1,0 +1,56 @@
+div {
+  margin: auto;
+  padding: 0;
+  position: relative;
+  text-align: center;
+}
+
+.beats {
+  height: 800px;
+  width: 800px;
+  margin: auto;
+  position: relative;
+  text-align: center;
+}
+
+.beats:active {
+  top: 10px;
+}
+
+.outerRed {
+  position: absolute;
+  background: #ED2F2F;
+  height: 800px;
+  width: 800px;
+  border-radius: 400px 400px 400px 400px;
+}
+
+.innerWhite {
+  position: absolute;
+  background: white;
+  height: 400px;
+  width: 400px;
+  border-radius: 200px 200px 200px 200px;
+  left: 25%;
+  top: 25%;
+}
+
+.whiteStrip {
+  position: absolute;
+  background: white;
+  height: 400px;
+  width: 100px;
+  border-radius: 0px 0px 0px 0px;
+  left: 25%;
+  top: 0%;
+}
+
+.innerRed {
+  position: absolute;
+  background: #ED2F2F;
+  height: 220px;
+  width: 220px;
+  border-radius: 110px 110px 110px 110px;
+  left: 36%;
+  top: 37%;
+}
