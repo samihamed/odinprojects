@@ -1,0 +1,51 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  font-family: courier;
+  text-align: center;
+  color: white;
+}
+
+#lotteryButton {
+  text-align: center;
+}
+
+#lotteriaButton {
+
+}
+
+#imp {
+  position: absolute;
+  top: 40px; /* Header Height */
+  bottom: 20px; /* Footer Height */
+  width: 100%;
+}
+
+#buttonDiv {
+  text-align: center;
+  font-family: courier;
+}
+
+#fragologo {
+  display: block;
+  margin: 0 auto;
+}
+
+#kiabking {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+
+#kiabking:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+#rooom {
+  height: 100px;
+}
