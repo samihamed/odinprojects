@@ -1,124 +1,32 @@
-.menu {
-  margin: 0 auto;
-  text-align: right;
-  width: auto;
-  padding: 0px 20px 0px 0px;
-  font-family: Arial, sans-serif;
-}
-
-.menu a {
-  margin: 6px;
-  color: #404040;
-  text-decoration: none;
-  vertical-align: middle;
-  display: inline-block;
-  line-height: normal;
-  font-size: 0.9em;
-}
-
-.menu a:hover {
-  text-decoration: underline;
-}
-
-.menu a img {
-  height: 32px;
-  filter: opacity(70%);
-}
-
-.menu a img:hover {
-  filter: opacity(100%);
-}
-
-#face img {
-  filter: opacity(100%);
-  height: 42px;
-}
-
-.space {
-  height: 90px;
-}
-
-.logo {
-  margin: 40px;
+.header {
+  position: relative;
+  max-width: 802px;
+  height: 100px;
   display: block;
-  position: relative;
-  text-align: center;
+  background-color: #EDEDED;
+  margin: 0 auto;
 }
 
-.logo img {
-  height: 180px;
-}
-
-.form {
-  margin: 0;
-  position: relative;
-  text-align: center;
-}
-
-.form input {
-  width: 600px;
-  height: 46px;
-  -webkit-box-shadow: -3px 9px 30px -6px rgba(0,0,0,0.49);
--moz-box-shadow: -3px 9px 30px -6px rgba(0,0,0,0.49);
-box-shadow: -3px 9px 30px -6px rgba(0,0,0,0.49);
-}
-
-.form input:focus {
-  -webkit-box-shadow: -3px 9px 30px -6px rgba(0,0,0,0.49);
-  -moz-box-shadow: -3px 9px 30px -6px rgba(0,0,0,0.49);
-  box-shadow: -3px 9px 30px -6px rgba(0,0,0,0.49);
-}
-
-.form input[type="text"] {
-  font-size: 30px;
-}
-
-.buttons {
-  margin: 40px;
-  text-align: center;
-  position: relative;
-  filter: opacity(40%);
-}
-
-.buttons a {
-  background-color: lightgrey;
-  padding: 10px 20px 10px 20px;
-  margin: 10px;
-  color: black;
-  text-decoration: none;
-  font-family: Arial;
-  font-weight: bolder;
-}
-
-.buttons a:hover {
-  filter: opacity(100%);
-  border: 1px solid grey;
-  position: relative;
-}
-
-.buttons a:active {
-  top: 2px;
+.container {
+  width: 800px;
+  height: 800px;
+  background-color: #F2F2F2;
+  margin: 0 auto;
+  display: block;
+  border: 1px solid #DBDBDB;
 }
 
 .footer {
-  width: 100%;
-  position: fixed;
-  bottom: 0px;
-  padding: 10px;
-  background-color: #E3E3E3;
-  text-align: center;
+  position: relative;
+  max-width: 802px;
+  height: 100px;
+  display: block;
+  background-color: #EDEDED;
+  margin: 0 auto;
 }
 
-.footer a {
-  text-decoration: none;
-  color: #636363;
-  margin: 10px;
-  padding: 20px;
-  font-size: 0.9em;
-  font-family: arial;
-
-}
-
-.footer a:hover {
-  text-decoration: underline;
+.box {
+  outline: 1px solid black;
+  background-color: white;
+  float: left;
 }
