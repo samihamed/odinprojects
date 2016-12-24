@@ -1,10 +1,38 @@
 .header {
   position: relative;
-  max-width: 802px;
-  height: 100px;
+  max-width: 800px;
+  height: 150px;
   display: block;
-  background-color: #EDEDED;
   margin: 0 auto;
+}
+
+.countExp {
+  position: absolute;
+  right: 0px;
+  font-family: helvetica;
+  float: right;
+}
+
+.count {
+  position: absolute;
+  right: 0px;
+  font-family: helvetica;
+}
+
+.button {
+  position: relative;
+  clear: both;
+  width: 120px;
+  height: 40px;
+  color: white;
+  background-color: #AFD490;
+}
+
+.button h4 {
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px;
+  font-family: helvetica;
 }
 
 .container {
@@ -18,15 +46,14 @@
 
 .footer {
   position: relative;
-  max-width: 802px;
+  max-width: 800px;
   height: 100px;
   display: block;
-  background-color: #EDEDED;
   margin: 0 auto;
 }
 
 .box {
-  outline: 1px solid black;
+  outline: 1px solid lightgrey;
   background-color: white;
   float: left;
 }
