@@ -9,7 +9,7 @@ var numBlocks = userInput * userInput;
 var boxDimension = 800/userInput;
 function createGrid(numBlocks) {
   $('.container').find('.box').remove();
-  if(userInput <= 50){
+  if(userInput <= 25){
   for (i = 0; i <= numBlocks; i++) {
     $('.box').css({'width': boxDimension + 'px', 'height': boxDimension + 'px'});
     $('.container').append("<div class='box'></div>");
