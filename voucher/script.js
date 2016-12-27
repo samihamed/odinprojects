@@ -2,7 +2,7 @@ $(document).ready(function(){
   countVoucher();
 });
 
-var value = 50;
+var value = 55;
 
 function countVoucher(){
   $('.store').on('click', function(){
