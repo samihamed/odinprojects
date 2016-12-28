@@ -3,6 +3,8 @@ $(document).ready(function(){
 });
 
 var userInput = 10;
+var rainbow = false;
+var fade = false;
 
 function startGrid(){
 var numBlocks = userInput * userInput;
@@ -20,10 +22,10 @@ function createGrid(numBlocks) {
     startGrid();
   }};
 createGrid(numBlocks);
+$('.header').find('.count').text(userInput + ' * ' + userInput);
 $('.box').on('mouseenter', function(){
   $(this).css({'background-color': 'black'})
 });
-$('.header').find('.count').text(userInput + ' * ' + userInput);
 };
 
 function resetGrid(){
@@ -33,4 +35,44 @@ function resetGrid(){
 function newGrid(){
   userInput = prompt('Pick a number between 1 and 25', 'please enter number');
   startGrid();
+};
+
+function rainbowMode() {
+  if (rainbow === false){
+    rainbow = true;
+    $('.box').on('mouseenter', function(){
+      $(this).css({'background-color': '#'+Math.floor(Math.random()*16777215).toString(16)})
+    });
+  }
+  else if (rainbow === true){
+    rainbow = false;
+    $('.box').on('mouseenter', function(){
+      $(this).css({'background-color': 'black'})
+    });
+  }
+  else {
+    alert('sorry');
+  }
+};
+
+function fadeMode() {
+  if (fade === false) {
+    fade = true;
+    $('.box').hover(function() {
+      $(this).css({'background-color': 'black'});
+    }, function() {
+      $(this).fadeTo('fast', 0.5, function(){
+        $(this).css({'background-color': 'white'});
+      });
+    });
+  }
+  else if (fade === true){
+    fade = false;
+    $('.container').find('.box').on('mouseleave', function(){
+      $(this).css({'background-color': 'black'});
+    });
+  }
+  else {
+      alert('sorry');
+  }
 };
