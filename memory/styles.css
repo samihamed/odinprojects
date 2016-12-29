@@ -1,0 +1,18 @@
+#container {
+  width: 811px;
+  height: 811px;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  background-color: lightgrey;
+}
+
+.box {
+  background-color: salmon;
+  display: block;
+  border: 1px solid white;
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+}
